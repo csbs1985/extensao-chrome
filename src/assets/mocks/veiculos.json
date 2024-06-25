@@ -1,0 +1,16 @@
+{
+    "veiculos": [
+        {
+            "id": "1",
+            "marca": {
+                "value": "23",
+                "nome": "Nissan"
+            },
+            "modelo": {
+                "value": "641",
+                "nome": "Kicks"
+            },
+            "anoFabricacao": "2017"
+        }
+    ]
+}

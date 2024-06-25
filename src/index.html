@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../dist/css/styles.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script defer src="../dist/js/scripts.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>tagCaixa Lotéricas</title>
+</head>
+
+<body class="flex flex-col w-[400px] bg-white gap-4">
+    <header class="flex bg-primary px-4 py-6 gap-4">
+        <h1 class="text-xl">tagCaixa Lotéricas | Massa de Teste</h1>
+    </header>
+
+    <main class="flex flex-col gap-4 px-4 pb-6">
+        <p class="font-bold text-xs text-red-900 self-end cursor-pointer" id="redefinirButton">REDEFINIR MASSA</p>
+
+        <div class="box-input">
+            <label for="usuariosSelect">Usuário</label>
+            <select name="usuariosSelect" id="usuariosSelect">
+                <option value="0">Selecione um usuário</option>
+            </select>
+        </div>
+
+        <div class="card" id="usuarioCard">
+            <p id="usuarioNome" class="copy"></p>
+            <p>CPF: <span id="usuarioCpf" class="copy"></span></p>
+            <p>Email: <span id="usuarioEmail" class="copy"></span></p>
+            <p>Celular: <span id="usuarioCelular" class="copy"></span></p>
+        </div>
+
+        <!-- <div class="box-input">
+            <label for="dispositivosSelect">Dispositivo</label>
+            <div class="flex items-center gap-2">
+                <select name="dispositivosSelect" id="dispositivosSelect">
+                    <option value="0">Selecione um dispositivo</option>
+                </select>
+
+                <button class="btn btn-secundary" id="buttonCopyDispositivo">
+                    <span class="material-symbols-outlined"> content_copy </span>
+                </button>
+            </div>
+        </div>
+
+        <div class="box-input">
+            <label for="planosSelect">Plano</label>
+            <select name="planosSelect" id="planosSelect">
+                <option value="0">Selecione um plano</option>
+            </select>
+        </div>
+
+        <div class="card" id="planosCard"></div>
+
+        <div class="box-input">
+            <label for="veiculosSelect">Veículo</label>
+            <select name="veiculosSelect" id="veiculosSelect">
+                <option value="0">Selecione um veículo</option>
+            </select>
+        </div>
+
+        <div class="card" id="veiculoCard"></div>
+
+        <div class="box-input">
+            <label for="marcasSelect">Placa Mercosul</label>
+            <div class="flex items-center gap-2">
+                <input name="placasInput" id="placasInput" disabled></input>
+
+                <button class="btn btn-secundary" id="buttonCopyPlaca">
+                    <span class="material-symbols-outlined"> content_copy </span>
+                </button>
+
+                <button class="btn btn-primary" id="buttonGeneratePlaca">
+                    <span class="material-symbols-outlined"> autorenew </span>
+                </button>
+            </div>
+        </div>
+
+        <div class="box-input">
+            <label for="enderecosSelect">Endereço</label>
+            <select name="enderecosSelect" id="enderecosSelect">
+                <option value="0">Selecione um endereço</option>
+            </select>
+        </div>
+
+        <div class="card" id="enderecoCard"></div>
+
+        <div class="box-input w-full">
+            <label for="cartoesSelect">Cartão de Crédito</label>
+            <select name="cartoesSelect" id="cartoesSelect">
+                <option value="0">Selecione um cartão</option>
+            </select>
+        </div>
+
+        <div class="card" id="cartaoCard"></div>
+
+        <div id="contaBox" class="box-input">
+            <div class="box-input">
+                <label for="contasSelect">Conta Bancária</label>
+                <select name="contasSelect" id="contasSelect">
+                    <option value="0">Selecione uma conta</option>
+                </select>
+            </div>
+
+            <div class="card mt-2" id="contaCard"></div>
+        </div> -->
+
+        <div id="recargaBox" class="hidden">
+            <div class="box-input">
+                <label for="racargaSelect">Valor Recarga</label>
+                <select name="racargaSelect" id="racargaSelect">
+                    <option value="0">Selecione um valor</option>
+                </select>
+            </div>
+        </div>
+    </main>
+
+    <footer class="flex justify-center p-4 bg-footer">
+        <p class="text-xs">charles.batista@fleetcor.com.br &bull; v1.0</p>
+    </footer>
+</body>
+
+</html>

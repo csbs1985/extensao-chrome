@@ -1,0 +1,14 @@
+{
+    "contas": [
+        {
+            "id": "1",
+            "banco": "Banco do Brasil",
+            "agencia": "3220",
+            "conta": "132842",
+            "digitoConta": "5",
+            "diaPagamento": "10",
+            "codigoOperacao": "",
+            "value": "001"
+        }
+    ]
+}

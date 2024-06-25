@@ -1,0 +1,24 @@
+{
+    "enderecos": [
+        {
+            "id": "1",
+            "cep": "09530047",
+            "logradouro": "Av. Senador Roberto Simonsen",
+            "numero": "429",
+            "complemento": "",
+            "bairro": "Santo Antonio",
+            "estado": "SP",
+            "cidade": "São Caetano do Sul"
+        },
+        {
+            "id": "2",
+            "cep": "04230047",
+            "logradouro": "R. Dr. José da Costa",
+            "numero": "55",
+            "complemento": "Bloco B6, apto. 21",
+            "bairro": "Vila Independencia",
+            "estado": "SP",
+            "cidade": "São Paulo"
+        }
+    ]
+}

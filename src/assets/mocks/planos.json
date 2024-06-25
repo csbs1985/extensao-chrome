@@ -1,0 +1,117 @@
+{
+    "planos": [
+        {
+            "tipo": "Pré-pago recarga automática",
+            "planos": [
+                {
+                    "tipoPagamento": "PREPAGO",
+                    "type": "ecommerce",
+                    "oferta": 45017,
+                    "promocao": "54696",
+                    "nome": "Essencial",
+                    "nome_tecnico": "essencial",
+                    "preco": "21,90",
+                    "formasPagamento": [
+                        "Cartão de crédito"
+                    ],
+                    "descontos": [
+                        "1 mês grátis"
+                    ],
+                    "beneficios": [
+                        "100% das estradas pedagiadas do Brasil​.",
+                        "Em mais de 2.500 estacionamentos entre ruas, shoppings, aeroportos, hospitais e muito mais.",
+                        "*Você também poderá utilizar os serviços de abastecimento, lava-rápido e drive-thru. Será cobrada uma taxa adicional de R$15,90 no mês que utilizar estes serviços."
+                    ],
+                    "financeiros": [
+                        "Cobrança de mensalidade.",
+                        "Plano pré-pago com recarga automática. As recargas são feitas de forma automática, para isso, você seleciona um valor fixo de recarga entre R$ 50,00, R$ 100,00, R$ 150,00 e R$ 500,00. Quando o seu saldo estiver em 70% do valor contratado, a recarga será feita automaticamente."
+                    ],
+                    "mensalidade": "1 mensalidade grátis",
+                    "itens": [
+                        "Pedágio",
+                        "Estacionamento",
+                        "Abastecimento, lava-rápido e drive-thru com uma taxa adicional.*"
+                    ],
+                    "frequencia": "/por mês"
+                }
+            ]
+        },
+        {
+            "tipo": "Plano Mensal",
+            "planos": [
+                {
+                    "tipoPagamento": "POSPAGO",
+                    "type": "ecommerce",
+                    "oferta": 45015,
+                    "promocao": "52468",
+                    "nome": "Completo",
+                    "nome_tecnico": "completo",
+                    "preco": "28,90",
+                    "formasPagamento": [
+                        "Cartão de crédito",
+                        "Débito em conta"
+                    ],
+                    "descontos": [
+                        "2 meses grátis"
+                    ],
+                    "beneficios": [
+                        "100% das estradas pedagiadas do Brasil​. Em mais de 2.500 estacionamentos entre ruas, shoppings, aeroportos, hospitais e muito mais.",
+                        "Facilidade em abastecer e pagar sem sair do carro (em mais de 2.000 postos de combustível).",
+                        "Nas franquias de drive-thru, como Mc Donald´s, Habib´s, Ragazzo e Jeronimo.",
+                        "​Mais de 160 lava-rápidos no Brasil."
+                    ],
+                    "financeiros": [
+                        "Cobrança de mensalidade"
+                    ],
+                    "mensalidade": "2 mensalidades grátis",
+                    "itens": [
+                        "Pedágio",
+                        "Estacionamento",
+                        "Abastecimeto",
+                        "Lava-rápido",
+                        "Drive-thru"
+                    ],
+                    "frequencia": "/por mês"
+                }
+            ]
+        },
+        {
+            "tipo": "Pague quando usar",
+            "planos": [
+                {
+                    "tipoPagamento": "POSPAGO",
+                    "type": "ecommerce",
+                    "oferta": 45016,
+                    "promocao": "",
+                    "nome": "Flex Completo",
+                    "nome_tecnico": "flex_completo",
+                    "preco": "34,90",
+                    "formasPagamento": [
+                        "Cartão de crédito",
+                        "Débito em conta"
+                    ],
+                    "descontos": [],
+                    "beneficios": [
+                        "100% das estradas pedagiadas do Brasil​. Em mais de 2.500 estacionamentos entre ruas, shoppings, aeroportos, hospitais e muito mais.",
+                        "Facilidade em abastecer e pagar sem sair do carro (em mais de 2.000 postos de combustível).",
+                        "Nas franquias de drive-thru, como Mc Donald´s, Habib´s, Ragazzo e Jeronimo.",
+                        "​Mais de 160 lava-rápidos no Brasil."
+                    ],
+                    "financeiros": [
+                        "Cobrança de taxa no mês que utilizar",
+                        "Caso não utilize o serviço por 60 dias, será cobrado taxa de inatividade de R$ 12,90/mês"
+                    ],
+                    "mensalidade": "",
+                    "itens": [
+                        "Pedágio",
+                        "Estacionamento",
+                        "Abastecimeto",
+                        "Lava-rápido",
+                        "Drive-thru"
+                    ],
+                    "frequencia": "/no mês que usar"
+                }
+            ]
+        }
+    ]
+}

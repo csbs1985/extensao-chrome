@@ -1,0 +1,23 @@
+{
+    "name": "TagCaixa Lotéricas",
+    "version": "1.0",
+    "description": "Massa de teste unitário do projeto TagCaixa Lotéricas.",
+    "manifest_version": 3,
+    "permissions": [
+        "activeTab",
+        "storage",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "src/index.html"
+    },
+    "icons": {
+        "16": "src/assets/images/icon.png",
+        "32": "src/assets/images/icon.png",
+        "48": "src/assets/images/icon.png",
+        "128": "src/assets/images/icon.png"
+    },
+    "background": {
+        "service_worker": "dist/js/scripts.js"
+    }
+}
